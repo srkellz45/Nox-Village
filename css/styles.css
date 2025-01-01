@@ -11,6 +11,29 @@ h1, h2, h3, h4, h5, h6 {
 
 p { color: #4a4a4a; font-size: 15px;}
 
+.section {
+    position: relative;
+    overflow: hidden;
+}
+
+.svg {
+    position: absolute;
+    display: block;
+    width: 100%; 
+    height: auto;
+    fill: #fff;
+}
+
+.bottom-shape {
+  bottom: -30px; 
+  margin-top: -1px; /* Adjust for seamless connection */
+}
+
+.top-shape {
+  top: -50px; 
+  margin-bottom: -1px; /* Adjust for seamless connection */
+}
+
 .btn {
     padding: 0.65rem 1.25rem !important;
     border-radius: 20px !important;
@@ -126,6 +149,8 @@ p { color: #4a4a4a; font-size: 15px;}
 }
 
 /* Why Section */
+
+.top-shape
 
 .why-img {
  display: block;
